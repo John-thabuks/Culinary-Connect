@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import styled from "styled-components";
-import React, {useState, useEffect} from 'react'
-import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/splide/dist/css/splide.min.css';
 import { Link } from 'react-router-dom';
@@ -12,18 +10,25 @@ function Veggies() {
 
     useEffect(() => {
       const check = localStorage.getItem("veggie");
-  
-      if (check) {
+      console.log(check &&  check !== "undefined")
+      if (check &&  check !== "undefined" ) {
+        console.log("Inside if")
         setVeggies(JSON.parse(check));
+
       } else {
+        console.log("inside else")
         fetch(
           `https://api.spoonacular.com/recipes/random?apiKey=ebbb33ca04e54326a40256cc799992b8&number=9&tags=vegetarian`
         )
           .then((response) => response.json())
           .then((data) => {
-             
+            console.log(data)
             localStorage.setItem("veggie", JSON.stringify(data.recipes));
             setVeggies(data.recipes);
+            // if (data.recipes) {
+            //   localStorage.setItem("veggie", JSON.stringify(data.recipes));
+            //   setVeggies(data.recipes);
+            // }
           })
           .catch((error) => console.error('Error fetching recipes:', error));
       }
@@ -33,7 +38,7 @@ function Veggies() {
     return (
         <>
       <Wrapper>
-        <h3 className='vegetarianPicks'>Vegetarian Picks</h3>
+        <h3>Vegetarian Picks</h3>
         <Splide
           options={{
             perPage: 4,
@@ -60,6 +65,7 @@ function Veggies() {
     </>
     )
 }
+
 
 const Wrapper = styled.div`
   margin: 4rem 0rem;
