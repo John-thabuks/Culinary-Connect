@@ -1,7 +1,7 @@
 import Popular from "../components/Popular";
 import Veggies from "../components/Veggies";
 import {motion} from "framer-motion"
-import Form from "./Forms"
+import Form from "./Form"
 
 
 function Home() {
