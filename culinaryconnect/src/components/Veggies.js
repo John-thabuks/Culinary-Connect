@@ -60,3 +60,7 @@ function Veggies() {
     </>
     )
 }
+
+const Wrapper = styled.div`
+  margin: 4rem 0rem;
+`;
