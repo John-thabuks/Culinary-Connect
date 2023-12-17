@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-
+import { useParams } from "react-router-dom";
+import styled from "styled-components";
 
 function Recipe() {
     let params = useParams();
@@ -65,3 +66,27 @@ function Recipe() {
       </DetailsWrapper>
     );
   }
+
+  const DetailsWrapper = styled.div`
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  .active {
+    background: linear-gradient(35deg, #494949, #313131);
+    color: white;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  li {
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+  ul {
+    margin-top: 2rem;
+  }
+`;
+
+
+
+export default Recipe;
