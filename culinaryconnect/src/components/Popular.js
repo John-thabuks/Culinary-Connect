@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 function Popular() {
   const [popular, setPopular] = useState([]);
+  
 
   useEffect(() => {
     const check = localStorage.getItem("popular");
@@ -14,7 +15,7 @@ function Popular() {
       setPopular(JSON.parse(check));
     } else {
       fetch(
-        `https://api.spoonacular.com/recipes/random?apiKey=ebbb33ca04e54326a40256cc799992b8&number=9`
+        `https://api.spoonacular.com/recipes/random?apiKey=cd91d68bf3fa402b83d6a8dcdaab1321&number=9`
       )
         .then((response) => response.json())
         .then((data) => {
