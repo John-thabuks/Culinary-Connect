@@ -18,7 +18,7 @@ function Veggies() {
       } else {
         console.log("inside else")
         fetch(
-          `https://api.spoonacular.com/recipes/random?apiKey=ebbb33ca04e54326a40256cc799992b8&number=9&tags=vegetarian`
+          `https://api.spoonacular.com/recipes/random?apiKey=cd91d68bf3fa402b83d6a8dcdaab1321&number=9&tags=vegetarian`
         )
           .then((response) => response.json())
           .then((data) => {
