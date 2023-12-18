@@ -1,0 +1,125 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "ugali",
+      "description": "maize meal",
+      "instructions": "Mix with flour with water"
+    },
+    {
+      "id": 2,
+      "title": "githeri",
+      "description": "maize and beans",
+      "instructions": "boil together maize and beans"
+    },
+    {
+      "title": "Fish",
+      "description": "fish  balls",
+      "instructions": "Rolled",
+      "id": 5
+    },
+    {
+      "user": "John",
+      "title": "Rice with beef",
+      "image": {},
+      "instructions": "Boiled content",
+      "ingredients": "rice water meat",
+      "id": 6
+    },
+    {
+      "user": "Irene",
+      "title": "Viazi Karai",
+      "image": {},
+      "instructions": "Chop potatoes and dip fry",
+      "ingredients": "Potatoes\nOil\nKnife",
+      "id": 7
+    },
+    {
+      "user": "Irene",
+      "title": "Viazi Karai",
+      "image": {},
+      "instructions": "Chop potatoes and dip fry",
+      "ingredients": "Potatoes\nOil\nKnife",
+      "id": 8
+    },
+    {
+      "user": "Irene",
+      "title": "Viazi Karai",
+      "image": {},
+      "instructions": "Chop potatoes and dip fry",
+      "ingredients": "Potatoes\nOil\nKnife",
+      "id": 9
+    },
+    {
+      "user": "Kevin",
+      "title": "Bread",
+      "image": {},
+      "instructions": "bake Wheat with sugar and salt",
+      "ingredients": "salt\nwheat\nsugar",
+      "id": 10
+    },
+    {
+      "user": "Chrispine",
+      "title": "Mukimo",
+      "image": {},
+      "instructions": "Potatoes boiled with beans and maize",
+      "ingredients": "potatoes\nBeans\nMaize",
+      "id": 11
+    },
+    {
+      "user": "Chrispine2",
+      "title": "Mukimo2",
+      "image": "",
+      "instructions": "Potatoes boiled with beans and maize part 2",
+      "ingredients": "",
+      "id": 12
+    },
+    {
+      "user": "bob",
+      "title": "Muthokoi",
+      "image": {},
+      "instructions": "I dont know",
+      "ingredients": "maize",
+      "id": 13
+    },
+    {
+      "user": "Irene",
+      "title": "Pancake",
+      "image": {},
+      "instructions": "Mix eggs, salt, sugar and milk in one bowl and beat using wire whisk for two minutes.Add self rising flour and oil and mix for one minute. ",
+      "ingredients": "2 -Eggs\nPinch of salt\n2- table spoons of sugar\n1 - cap self rising flour\n1 - cup milk\n2 - butter/ table spoon oil",
+      "id": 14
+    },
+    {
+      "user": "bob",
+      "title": "Bob Recipe",
+      "image": "https://res.cloudinary.com/dqztn9qnj/image/upload/v1702811743/nsv8pe63oxqc5dlsdafl.png",
+      "instructions": "Testing instructions",
+      "ingredients": "Testing ingredients",
+      "id": 15
+    },
+    {
+      "user": "chrispine",
+      "title": "Cake",
+      "image": "https://res.cloudinary.com/dqztn9qnj/image/upload/v1702813644/wmfzixt6g7gqutdmnbvd.png",
+      "instructions": "Cake instructions using binary",
+      "ingredients": "Binary instructions of cakes",
+      "id": 16
+    },
+    {
+      "user": "Irene2",
+      "title": "Testing",
+      "image": "https://res.cloudinary.com/dqztn9qnj/image/upload/v1702923809/a0iabl6dgkatkdfqbfa4.png",
+      "instructions": "Testing before deployement",
+      "ingredients": "Testing testing",
+      "id": 17
+    },
+    {
+      "user": "Irene3",
+      "title": "Testing3",
+      "instructions": "Testing before deployement3",
+      "ingredients": "Testing testing3",
+      "id": 18
+    }
+  ]
+}
