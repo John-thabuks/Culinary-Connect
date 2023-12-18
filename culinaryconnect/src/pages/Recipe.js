@@ -73,7 +73,7 @@ function Recipe() {
   display: flex;
   .active {
     background: linear-gradient(35deg, #494949, #313131);
-    color: white;
+    color: black;
   }
   h2 {
     margin-bottom: 2rem;
@@ -89,7 +89,7 @@ function Recipe() {
 
 const Button = styled.button`
   padding: 1rem 2rem;
-  color: #313131;
+  color: orangered;
   background: white;
   border: 2px solid black;
   margin-right: 2rem;
