@@ -47,7 +47,7 @@ function Form() {
                 };
 
                 // Handle form submission (e.g., send data to server)
-                fetch("http://localhost:3005/recipes", {
+                fetch("https://culinary-connect-backend.onrender.com/recipes", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
