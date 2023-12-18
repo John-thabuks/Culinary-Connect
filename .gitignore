@@ -1,0 +1,35 @@
+# Dependency directories
+/node_modules
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Build files
+/build
+/dist
+
+# Logs
+/logs
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled binary addons
+/build/Release
