@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { GiKnifeFork } from "react-icons/gi";
 
-
 function App() {
   return (
     <div className="bg">
