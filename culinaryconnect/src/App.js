@@ -9,12 +9,12 @@ import { GiKnifeFork } from "react-icons/gi";
 
 function App() {
   return (
-    <div>
+    <div className="bg">
       <BrowserRouter>
-      <Nav>
-        <GiKnifeFork />
-        <Logo to={'/'}>Culinary-Connect</Logo>
-      </Nav>
+        <Nav>
+          <GiKnifeFork />
+          <Logo to={'/'}>Culinary-Connect</Logo>
+        </Nav>
         <Search />
         <Category />
         <Pages />
@@ -22,6 +22,7 @@ function App() {
     </div>
   );
 }
+
 
 const Logo = styled(Link)`
   text-decoration: none;
