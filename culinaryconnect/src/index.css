@@ -34,21 +34,25 @@ h3{
 }
 
 a{
-  color: rgb(56,56,56);
+  color: orangered;
 }
 
+.popular, .vegetarian {
+  color: orangered;
+}
 .form-container {
   max-width: 400px;
   margin: auto;
-  background-color: #f5f5f5; 
+  background-color: whitesmoke; 
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: orangered;
 }
 
 .form-header {
   margin-bottom: 20px;
   align-self: center; 
+  color: orangered;
 }
 
 .form-group {
@@ -70,7 +74,7 @@ textarea {
 }
 
 button {
-  background-color: #4caf50;
+  background-color: orangered;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -79,5 +83,11 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color:grey;
 }
+
+.bg {
+  background-color: oceanblue;
+}
+
+
